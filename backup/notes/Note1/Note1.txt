@@ -1,0 +1,191 @@
+1 - Criando o nosso player
+
+	1.1 - Importando o player. - ✔
+	1.2 - Criando o objeto do player e dando a sprite dele. - ✔
+	1.3 - Movendo o player com o "WASD". - ✔
+	1.4 - Código otmizado - ✔
+	
+	
+2 - Ajustando as dimensões da room e ajustando a view e viewport da room - ✔
+
+	2.1 - Criando uma viewport e camera para o jogo - ✔
+	2.2 - Ajustando as dimensões para a view ser grande e o viewport menor - ✔
+	
+	
+3 - Atirando!!!
+
+	3.1 - Importando as sprites do tiro do player - ✔
+	3.2 - Criando o objeto dos tiro - ✔
+	3.3 - Fazendo o tiro ir para cima - ✔
+	3.4	- Fazendo o jogador atirar ao apertar o espaço - ✔
+	3.5 - Dando um efeito legal para o tiro - ✔
+		3.5.1 - Fazendo ele ficar grande e depois de um tempo ficar pequeno - ✔
+	3.6 - Destruir o tiro quando ele sair da tel - ✔
+	
+	
+4 - Criando o primeiro inimigo (polvo)
+
+	4.1 - Importando a sprite do primeiro inimigo - ✔
+	4.2 - Criando o objeto do inimigo - ✔
+	4.3 - Fazendo o inimigo ir para baixo - ✔
+	4.4 - Fazendo o inimigo atirar - 
+		4.4.1 - Importando a sprite do tiro - ✔
+		4.4.2 - Fazendo o tiro ir para baixo - ✔
+		4.4.3 -	Dando efeito no tiro - ✔
+		
+(Métodos)
+
+5 - Fazendo o tiro do player acertar o innimigo
+
+	5.1 - Se destruir ao acertar o inimigo - ✔
+	5.2 - Criar o impacto do tiro do player - ✔
+	5.3 - Fazendo o tiro desaparecer ao final da animação - ✔
+	5.4 - Fazendo o tiro não criar o impacto ao sair da room - ✔
+	
+6 - Fazendo o tiro do inimigo acertar o player - ✔
+
+	6.1 - Destruindo os tiros do inimigo ao sair da room - ✔
+	
+	
+7 - Destruindo o inimigo quando ele levar um tiro - ✔
+
+	7.1 - Fazer o tiro do player também destruir o inimigo que colidir com ele - ✔
+	7.2 - Fazer com que ao ser destruido o inimigo crie uma explosão - ✔
+	
+		7.2.1 - Criar a sprite da explosão - ✔
+		7.2.2 - Criar o objeto da exlposão - ✔
+		7.2.3 - Fazer o inimigo instanciar a explosão ao morrer -  ✔
+		7.2.4 - Fazer a explosão se destruir no final da animação - ✔
+		
+8 -  Pequenos ajustes parte I - ✔
+	8.1 - Fazer o inimigo ser destruido ao sair da tela - ✔
+	8.2 - Deixando o nosso background mais melhor de bonito de charmoso de legal! - ✔
+	8.3 - Deixando o nosso tiro mais bonito
+		8.3.1 - Criar a sprite do brilho - ✔
+		8.3.2 - Criar o draw event - ✔
+		8.3.4 - Desenhar o brilho - ✔
+		8.3.5 - Alterar como a GPU processa a mistura de imagens - ✔
+		8.3.6 - Criar a variável cores para ele mudar de cor - ✔
+		8.3.7 - Usar o lerp para diminuir o tamanho  - ✔
+	8.4 - Deixando as explosões mais bonitas - ✔
+		8.4.1 - Criar o Draw Event - ✔
+		8.4.2 - Se desenhar - ✔
+		8.4.3 - Me desenhar um pouco maior - ✔
+		8.4.4 - Alterar comoa GPU processa mistura de cores - ✔
+	
+9 -  Criando o background do nosso jogo 
+	
+	9.1 - Importando a sprite do background -  ✔
+	
+10 - Criando o Segundo inimigo
+	
+	10.1 - Importando a sprite do segundo inimigo - ✔
+	10.2 - Criando o objeto "segundo inimigo" - ✔
+	10.3 - Fazendo o segundo inimigo herdar os comportamentos do inimigo 1 - ✔ 
+	10.4 - Fazendo ele mudar de direção ao chegar em um determinado Y do meio da tela - ✔ 
+	10.5 - Checando em qual lado da room ele está - ✔ 
+	10.6 - Fazendo ele andar só uma vez - ✔ 
+	10.7 - Criando o própio tiro - ✔ 
+		10.7.1 - Importando sprite - ✔ 
+		10.7.2 - Criando o objeto - ✔ 
+		10.7.3 - Fazendo ele herdar comportamentos do primeiro tiro - ✔ 
+		10.7.4 - Fazendo ele ir na drieção do player - ✔ 
+		10.7.5 - Fazendo ele apontar para o player - ✔ 
+			10.7.5.1 - Fazendo ela ganhar 180 - ✔ 
+		10.7.5 - Indo para direção do player se apenas ele existir - ✔ 
+
+
+11 - Criação procedural dos inimigos -
+
+	11.1 - Criando os inimigos de tempos e tempos
+		11.1.1 - Fazendo com que a posição X e Y dos inimigos sejam aleatórios - ✔ 
+	11.2 - Criando inimigos diferentes com base no level do jogo - c
+	11.3 - Criar ONDAS de inimigos - ✔
+	11.4 - Criar as ondas APENAS se não tem mais inimigos no jogo - ✔
+	11.5 - Criar a quantidade de inimigos com base no level - ✔
+	11.6 - Impedindo que inimigos seja criados no mesmo lugar - 
+
+
+12 - Criando o objeto controller do inimigo - 
+	
+	12.1 - Ganhando pontos ao destruir o inimigo - ✔ 
+	
+13 - Criando o sistema de pontos - 
+
+	
+	13.1 - Iniciando a varável pontos - ✔ 
+	13.2 - Ganhando pontos ao destruir os inimigos - ✔ 
+	13.3 - Rodando o metodo de ganhar pontos apenas se a instância do objeto index existir - ✔ 
+	13.4 - Fazendo inimigos diferentes me dar pontos diferentes - ✔ 
+	13.5 - Criando variáveis que dê pontos diferentes em cada inimigo - ✔ 
+
+
+14 - Criando o sistema de levels - 
+
+	14.1 - Iniciando a variável de levels - ✔ 
+	14.2 - Exibindo levels - ✔
+	14.3 - Ganhando levels quando subir um determinado pontos - ✔
+	14.4 - Dobrando a quantidade de pontos necessaria para próximo level - ✔
+	
+
+15 - Criando os Leveis de tiro!! - ✔
+
+	15.1 - Deixa o tiro do player  "automático" - ✔
+	15.2 - Criando o sistema de leveis - ✔
+	15.3 - Criando o sistema de debug dos leveis - ✔
+	15.4 - Criando o segundo tiro do player - 
+		15.4.1 - Criando sprite e objeto - ✔
+		15.4.2 - Ser filho do tiro1 do player - ✔
+		15.4.3 - Ajustando os efeitos do segundo tiro - ✔
+		15.4.4 - Criando dois tiros por vez, um em cada asa - ✔
+		15.5.5 - Fazendo o tiro mudar de direção - ✔
+		15.5.6 - Fazendo o tiro inverter a direção horizontal - ✔
+	15.5 - Criando o terceiro tiro do player - ✔
+	15.6 - Criando o quarto tiro do player - ✔
+	15.7 - Criando o quinto tiro do player - ✔
+	
+	
+16 - Criando os power ups - ✔
+	16.1 - Importando sprite e criando o objeto - ✔
+	16.2 - Criar a chance de cada power up - ✔
+	16.3 - Criar o a função level up no player - ✔
+	16.4 - Fazer o item colidir com o player E dar o power up para ele - ✔
+	16.5 - Destruir o item ao colidir com o player - ✔
+	16.6 - Criando o impacto ao ser destruido - ✔
+	16.7 - Fazer os inimigos terem uma chanced de dropar o power_up - ✔
+	16.8 - Fazendo o power_up se mover - ✔
+	16.9 - Dando um efeito a mais para ele - ✔
+
+17 -  Iniciando o escudo - ✔
+
+	17.1 - Importando a sprite e criando o objeto - ✔
+	17.2 - Fazer o escudo ao apertar o "control" - ✔
+	17.3 - Criar uma layer para o escudo e criar ele lá - ✔
+	17.4 - Fazer com que o escudo fique na mesma posição do player - ✔
+		17.4.1 - Corrigir o delay no movimento - ✔
+	17.5 - Destruindo os tiros e os inimigos com o escudo - ✔
+	17.6 - Deixando o escudo maior - ✔
+	17.7 - Animar o escudo - ✔
+	17.8 - Melhorar o efeito no escudo - ✔
+	
+
+18 - Ajustes gerais - ✔
+	
+	18.1 - Ajustando as mascaras de colisão - ✔
+	18.2 - Dando colisão do player com os monstros - ✔ 
+
+
+19 - Fazendo o player morrer - ✔
+
+	19.1 - Dando vida para o player - ✔
+	19.2 - Criando a função de perder vida - ✔
+	19.3 - Fazendo ele morrer SE a vida for menor ou igual a zero - ✔
+	19.4 - Fazendo o player ganhar a explosão - ✔
+	19.5 - Exibindo a vida do player - ✔
+	19.6 - Fazendo o player trombar com o inimigo - ✔
+	19.7 - Criando uma tela de gameover quando o player morrer - ✔
+		19.7.1 - Criando a sequence de gameover - ✔
+		19.7.2 - Instanciando a sequence quando o player morrer - ✔
+			19.7.2.1 - Checando se o player existe pelo objeto index - ✔
+			19.7.2.2 - SE o player não existir então eu crio a minha sequence - ✔
+	
