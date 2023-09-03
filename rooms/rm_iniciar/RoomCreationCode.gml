@@ -1,4 +1,8 @@
 //Cógidos que rodam SEMPRE que a room é iniciada
+
+
+//Deixando meu jogo aleatório 
+randomize();
 //Iniciar as minhas variáveis globais
 
 //Pontuação mais alta

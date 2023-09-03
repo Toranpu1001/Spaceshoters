@@ -21,6 +21,8 @@ shooting = function()
 	if ((_fire || _fire_click) && alarm[0] == -1)
 	{	
 		alarm[0] = cooldown
+		
+		audio_play_sound(sfx_laser1, 1, false);
 	
 	if(level_fire == 1)
 	{
