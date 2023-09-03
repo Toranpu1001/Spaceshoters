@@ -24,7 +24,7 @@ ganhando_pontos = function(_pontos)
 	{
 		level++;
 		
-		prox_level *= 2;;//dobrando o próximo level
+		prox_level *= 2;//dobrando o próximo level
 	}
 		
 	

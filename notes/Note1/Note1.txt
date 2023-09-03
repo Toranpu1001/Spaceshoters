@@ -12,7 +12,7 @@
 	2.2 - Ajustando as dimensões para a view ser grande e o viewport menor - ✔
 	
 	
-3 - Atirando!!!
+3 - Atirando!
 
 	3.1 - Importando as sprites do tiro do player - ✔
 	3.2 - Criando o objeto dos tiro - ✔
@@ -279,4 +279,23 @@
 			27.2.3 - SE o alpha for menor do que 1 então ele aumenta - ✔
 		27.3 - Fazendo ele mudar de tela depois que a tela ficar totalmente escura - ✔
 		27.4 - Fazendo ele deixar a tela clara novamente - ✔
-	
+			27.4.1 - Deixando a tela clara ao trocar de room - ✔
+			27.4.2 - Avisando quando eu troquei de room - ✔
+		27.5 - SE eu troquei de room e o alpha for menor do que 0, eu me mato
+		27.6 - Personalizando o destino 
+		
+		
+	28 - Criar a tela de pontuação
+		28.1 - Criar um sistema de pontos que guarda as pontuações - ✔
+			28.1.1 - Criando uma room para inicializar as variáveis globais - ✔
+			28.1.2 - Garantindo que o viewport da room inicializar esta correto - ✔
+			28.1.3 - Inicializando as variáveis glovais nela - ✔
+			28.1.4 - Indo para a próxima room - ✔
+		28.2 - Debug para ver as variáveis globais - ✔
+		28.3 - Salvando os pontos na variável global de "max pontos" SE os pontos forem maior que o atual - ✔
+			28.3.1 - Quando o jogo terminar (a partida) checar se os pontos foram maiores que o atual - ✔
+		28.4 - Sempre que um inimigo for morto ele vai aumentar em 1 a variável de "inimigos mortos" - ✔
+		28.5 - Sempre que o player morrer ele incrementa a variávgel de mortes em 1 - ✔
+		28.6 - Ganhando pontos ao matar o boss - ✔
+		28.7 - Garantir que o objeto pontos vai atualizar os pontos - ✔
+		33.8 - Exibindo os pontos na tela de pontos - ✔

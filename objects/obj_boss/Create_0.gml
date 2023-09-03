@@ -10,7 +10,7 @@
 
 */
 
-
+pontos = 200;
 
 randomize();
 loading = true;

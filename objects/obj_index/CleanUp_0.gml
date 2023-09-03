@@ -1,9 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+//Atualizando os pontos
+//
+if(pontos > global.max_pontos)
+{
+		global.max_pontos = pontos;
+}
 
-instance_create_layer(x,y,"boss",obj_impacto3);
 
-global.total_enemies++;
 
 
 

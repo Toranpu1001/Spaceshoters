@@ -56,3 +56,9 @@ function texto (_text)
 	draw_set_halign(-1);
 	draw_set_valign(-1);	
 }
+
+function transicao ()
+{
+	var _transicao = instance_create_layer(0, 0, "player", obj_transicao);
+	transicao.destino = rm_index;
+}

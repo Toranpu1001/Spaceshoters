@@ -142,12 +142,11 @@ perde_vida = function()
 		{
 			life--;
 			
-			functions(5);
 		}	
 else
 		{
 			instance_destroy();
-			functions(20);
+			global.total_dies++;
 		}
 	}
 }

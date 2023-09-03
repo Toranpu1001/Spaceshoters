@@ -6,6 +6,8 @@ instance_destroy();
 
 instance_destroy(other);
 
+global.total_enemies++;
+
 
 
 
