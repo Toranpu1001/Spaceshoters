@@ -3,7 +3,7 @@
 
 vel_polvo = 3;
 
-pontos = 10;
+pontos = 40;
 
 explosion = obj_impacto2;
 
@@ -14,7 +14,11 @@ vspeed += vel_polvo;
 ///@method shooting
 shooting = function()
 {
-	instance_create_layer(x - 4, y + sprite_height/2, "Fires", obj_polvo_fire);
+	if(y > 0)
+	{
+		instance_create_layer(x - 4, y + sprite_height/2, "Fires", obj_polvo_fire);
+		audio_play_sound(sfx_laser1, 1, false);//audio do tiro
+	}
 }
 //Iniciando o alarme com um tempo entre 1 e segundos
 alarm[0] = room_speed * random_range(1, 3);

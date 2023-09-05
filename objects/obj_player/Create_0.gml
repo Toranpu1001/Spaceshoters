@@ -22,7 +22,7 @@ shooting = function()
 	{	
 		alarm[0] = cooldown
 		
-		audio_play_sound(sfx_laser1, 1, false);
+		audio_play_sound(sfx_laser2, 1, false);
 	
 	if(level_fire == 1)
 	{
@@ -127,7 +127,7 @@ shield = function()
 		if(_shield && qnt_shield > 0)
 		{
 		var _escudo = instance_create_layer(x, y, "escudo", obj_shield);	
-		
+	
 		_escudo.alvo = id;
 	
 		 my_shield = shield; //avisando que esse escudo é meu escudo

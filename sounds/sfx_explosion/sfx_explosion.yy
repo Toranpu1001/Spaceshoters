@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "sfx_explosion.wav",
   "type": 0,
-  "volume": 0.24,
+  "volume": 0.1,
 }

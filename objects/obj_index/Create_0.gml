@@ -7,7 +7,7 @@ go_boss = true;
 
 pontos = 0;//iniciando sistema de pontots
 
-level = 9;//Iniciando o sistema de levels
+level = 1;//Iniciando o sistema de levels
 
 prox_level = 100;//Pontos que precisa para próximo level
 

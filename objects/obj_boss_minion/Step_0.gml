@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-show_debug_message(image_alpha)
+
 	if(first_fire == false)
 	{
 		image_alpha = lerp(image_alpha, 1, .006);

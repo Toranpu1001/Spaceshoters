@@ -5,7 +5,6 @@ if(current_state != "state 4")
 	sprite_index = spr_boss_combat
 }
 //Debug do estado atual
-show_debug_message(wait_state);
 //Alternando os estados
 //Deminiuindo a espera do estado
 if (keyboard_check(vk_enter))

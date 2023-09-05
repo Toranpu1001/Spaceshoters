@@ -36,7 +36,7 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
-    {"id":{"name":"snd_Aggressor","path":"sounds/snd_Aggressor/snd_Aggressor.yy",},},
+    {"id":{"name":"snd_boss_fight","path":"sounds/snd_boss_fight/snd_boss_fight.yy",},},
     {"id":{"name":"sfx_twoTone","path":"sounds/sfx_twoTone/sfx_twoTone.yy",},},
     {"id":{"name":"sfx_laser2","path":"sounds/sfx_laser2/sfx_laser2.yy",},},
     {"id":{"name":"sqn_level_end","path":"sequences/sqn_level_end/sqn_level_end.yy",},},
@@ -79,7 +79,7 @@
     {"id":{"name":"sfx_lose","path":"sounds/sfx_lose/sfx_lose.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_cyclops","path":"sprites/spr_cyclops/spr_cyclops.yy",},},
-    {"id":{"name":"snd_Darkling","path":"sounds/snd_Darkling/snd_Darkling.yy",},},
+    {"id":{"name":"snd_level","path":"sounds/snd_level/snd_level.yy",},},
     {"id":{"name":"spr_black_background","path":"sprites/spr_black_background/spr_black_background.yy",},},
     {"id":{"name":"obj_impacto","path":"objects/obj_impacto/obj_impacto.yy",},},
     {"id":{"name":"spr_background2","path":"sprites/spr_background2/spr_background2.yy",},},

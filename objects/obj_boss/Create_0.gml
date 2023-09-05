@@ -9,13 +9,17 @@
 	Estado especial 1 = Ficar invulneravel enquanto cria dois minions para recuperar a vida
 
 */
+audio_play_sound(snd_boss_fight, 0, 1);
 
 pontos = 200;
 
 randomize();
+
+play_music = true;
+
 loading = true;
 
-life_max = 1;
+life_max = 2000;
 
 life = 1;
 
@@ -23,7 +27,7 @@ delay_state = room_speed*5
 
 wait_state = delay_state
 
-current_state = choose("state 2");
+current_state = choose("state 1", "state 2", "state 3");
 
 delay = room_speed/3
 
@@ -36,6 +40,7 @@ control_minion = true;
 tiro_02 = function()
 {
 	instance_create_layer(x, y + 144,"boss", obj_cyclops_fire)
+	audio_play_sound(sfx_laser1, 1, false )
 }
 ///@method tiro_01(direita ou esquerda) 
 tiro_01 = function(_direita)
@@ -49,9 +54,9 @@ tiro_01 = function(_direita)
 		var _posx = -160	
 		
 	}
-	
+	audio_play_sound(sfx_laser1, 1, false)
 	instance_create_layer(x + _posx, y + 82,"boss", obj_polvo_fire);
-}
+	}
 
 ///@method state_01
 state_01 = function()

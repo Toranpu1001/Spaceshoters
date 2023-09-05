@@ -3,8 +3,8 @@
 
 draw_set_font(fnt_space);
 
-	draw_text(20, 70, pontos);//Desenhando os pontos
-	draw_text(20, 100, "Level: " + string(level));//Desenhando o level atual
+	draw_text(20, 100, "Pontos: " + string(pontos));//Desenhando os pontos
+	draw_text(20, 130, "Level: " + string(level));//Desenhando o level atual
 
 draw_set_font(-1);
 

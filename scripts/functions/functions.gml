@@ -20,9 +20,11 @@ function ganha_pontos(_pontos)
 function destroy_seq()
 {
 	 var _elements = layer_get_all_elements("boss_animation");
-	 layer_sequence_destroy(_elements[0]);
+	
+	layer_sequence_destroy(_elements[0]);
 	 
-	 instance_create_layer(960, 256, "Boss", obj_boss);
+	var _boss = instance_create_layer(960, 256, "Boss", obj_boss);
+	
 }
 
 function end_level()
@@ -40,8 +42,11 @@ function end_level()
 }
 function destroy_all()
 {
-	obj_polvo.vel_polvo = 0;
-	instance_destroy(obj_polvo)
+
+	if(instance_exists(obj_polvo))
+	{
+		instance_destroy(obj_polvo)
+	}
 }
 
 function texto (_text)

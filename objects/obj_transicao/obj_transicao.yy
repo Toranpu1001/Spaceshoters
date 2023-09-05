@@ -12,8 +12,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Particle Systems",
+    "path": "folders/Particle Systems.yy",
   },
   "parentObjectId": null,
   "persistent": true,

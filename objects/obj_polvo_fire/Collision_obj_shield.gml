@@ -3,7 +3,7 @@
 
 instance_destroy(id, false);
 
-
+audio_play_sound(sfx_twoTone, 0, false);
 
 
 

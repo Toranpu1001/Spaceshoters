@@ -12,6 +12,7 @@ global.total_enemies++;
 
 ganha_pontos(pontos);
 
+audio_pause_sound(snd_boss_fight);
 
 
 

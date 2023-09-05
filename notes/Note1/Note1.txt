@@ -305,5 +305,24 @@
 		
 
 29 - Criando os sons do jogo
-	29.1 - Importando os sons do jogo
-	29.2 - Criando o som de explosão quando o objeto explosão for criado
+	29.1 - Importando os sons do jogo - ✔
+	29.2 - Criando o som de explosão quando o objeto explosão for criado - ✔
+	29.3 - Criando o som do tiro sempre que o player atirar - ✔
+	29.4 - Criando o som do tiro sempre que o inimigo atirar - ✔
+	29.5 - Criando o som do tiro sempre que o boss atirar - ✔
+	29.6 - Criando o som do escudo do player nascendo - ✔
+	29.7 - Criando o som do escudo do player sumindo - ✔
+	29.8 - Criando o som do lose quando aparecer a tela de game over - ✔
+	29.9 - Colocando o two tone quando o tiro bater no escudo do player - ✔
+	29.10 - Tocando a música do jogo quando o level iniciar - ✔
+		29.10.1 - Parando de tocar as música quando eu sair do level - ✔
+	29.11 - Tocando a boss fight quando a boss fight começar - ✔
+		29.11.1 - Parando de tocar a música do level quando a boss fight começar - ✔
+		29.11.2 - Tocando a boss figth - ✔
+	
+	
+30 - Polindo o jogo
+
+	30.1 - Tirando todos os debugs do jogo - ✔
+	30.2 - Ajustando a exibição dos pontos - ✔
+	30.3 - Testando o jogo - ✔

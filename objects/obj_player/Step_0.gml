@@ -26,18 +26,18 @@ x = clamp(x, 64, 1856);
 y = clamp(y, 64, 1024);
 
 
-if (keyboard_check_pressed(vk_up) && level_fire < 5)
-{
+//if (keyboard_check_pressed(vk_up) && level_fire < 5)
+//{
 	
-	level_fire++;
+//	level_fire++;
 	
-}
-if (keyboard_check_pressed(vk_down) && level_fire > 1)
-{
+//}
+//if (keyboard_check_pressed(vk_down) && level_fire > 1)
+//{
 	
-	level_fire--;
+//	level_fire--;
 	
-}
+//}
 
 
 //Diminuir o cooldown do tiro em 10% se eu apertei a seta para a esquerda.
@@ -53,5 +53,5 @@ if (keyboard_check_pressed(vk_down) && level_fire > 1)
 //}
 
 
-show_debug_message(qnt_shield);
+
 

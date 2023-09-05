@@ -9,7 +9,7 @@ var _draw_x_s = 60;
 repeat(life)
 {
 	//Primeira fica no 40
-	draw_sprite_ext(spr_player, 0, _draw_x + 50, 60,.4,.4,0, c_white, .6);
+	draw_sprite_ext(spr_player, 0, _draw_x + 10, 60,.4,.4,0, c_white, .6);
 	_draw_x += 60;
 }
 
@@ -18,7 +18,7 @@ _draw_x = 60;
 repeat(qnt_shield)
 {	
 	gpu_set_blendmode(bm_add);
-	draw_sprite_ext(spr_shield, 3, _draw_x + 50, 61,.4,.4,0, c_white, .6);
+	draw_sprite_ext(spr_shield, 3, _draw_x + 10, 61,.4,.4,0, c_white, .6);
 	_draw_x += 60;
 	gpu_set_blendmode(bm_normal);
 }
