@@ -33,7 +33,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"snd_boss_fight","path":"sounds/snd_boss_fight/snd_boss_fight.yy",},},
@@ -108,6 +108,7 @@
     {"roomId":{"name":"rm_points","path":"rooms/rm_points/rm_points.yy",},},
     {"roomId":{"name":"rm_index","path":"rooms/rm_index/rm_index.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
